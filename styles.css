@@ -100,18 +100,20 @@ body{
     width: 10rem;
     height: 7rem;
     background-color: #FFA644;
-
+    font-size: 20px;
 }
 .calculator{
     display: grid;
     grid-template-columns: 0.25fr 0.25fr 0.25fr;
     margin-left: 90px;
     margin-top: 6vw;
+    
 }
 .calculator button{
     width: 7rem;
     height: 7rem;
     background-color: #ffe651;
+    font-size: 20px;
 }
 #total{
     display: flex;
