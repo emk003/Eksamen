@@ -4,7 +4,7 @@ body {background-color: #FFFFF3;} /* Sidens lysegule baggrundsfarve. Formel fra 
 
 /* Styling af brugernavns knap */
 .brugernavn{
-    background-color: orange; /* orange baggrundsfarve */
+    background-color: #FFA644; /* orange baggrundsfarve */
     color: white;
     width: 250px;
     height: 80px;
@@ -32,7 +32,7 @@ body {background-color: #FFFFF3;} /* Sidens lysegule baggrundsfarve. Formel fra 
 
 /* Styling af adgangskode knap */
 .adgangskode{
-    background-color: orange; /* orange baggrundsfarve */
+    background-color: #FFA644; /* orange baggrundsfarve */
     color: white;
     width: 250px;
     height: 80px;
@@ -48,7 +48,7 @@ body {background-color: #FFFFF3;} /* Sidens lysegule baggrundsfarve. Formel fra 
     cursor: pointer;
 
     font-family:"Big Caslon";
-    background-color: orange; /* orange baggrundsfarve */
+    background-color: o#FFA644; /* orange baggrundsfarve */
     color: black;
     border-radius: 50px;
 
@@ -63,7 +63,7 @@ body {background-color: #FFFFF3;} /* Sidens lysegule baggrundsfarve. Formel fra 
 
 /* Styling af login knap */
 .Login{
-    background-color: orange; /* orange baggrundsfarve */
+    background-color: #FFA644; /* orange baggrundsfarve */
     border: none;
     color: white;
     padding: 6px 50px;
@@ -78,7 +78,7 @@ body {background-color: #FFFFF3;} /* Sidens lysegule baggrundsfarve. Formel fra 
     cursor: pointer;
 
     font-family:"Big Caslon";
-    background-color: orange; /* orange baggrundsfarve */
+    background-color: #FFA644; /* orange baggrundsfarve */
     color: black;
     border-radius: 50px;
 
@@ -108,7 +108,7 @@ body {background-color: #FFFFF3;} /* Sidens lysegule baggrundsfarve. Formel fra 
         cursor: pointer;
 
         font-family:"Big Caslon";
-        background-color: orange; /* orange baggrundsfarve */
+        background-color: #FFA644; /* orange baggrundsfarve */
         color: black; /* Tekst/skrift farve */
         border-radius: 45px; /* Bløde kanter */
 
@@ -132,7 +132,7 @@ body {background-color: #FFFFF3;} /* Sidens lysegule baggrundsfarve. Formel fra 
         cursor: pointer;
 
         font-family:"Big Caslon";
-        background-color: orange; /* orange baggrundsfarve */
+        background-color: #FFA644; /* orange baggrundsfarve */
         color: black; /* Tekst/skrift farve */
         border-radius: 45px; /* Bløde kanter */
 
@@ -155,7 +155,7 @@ body {background-color: #FFFFF3;} /* Sidens lysegule baggrundsfarve. Formel fra 
         cursor: pointer;
 
         font-family:"Big Caslon";
-        background-color: orange; /* orange baggrundsfarve */
+        background-color: #FFA644; /* orange baggrundsfarve */
         color: black; /* Tekst/skrift farve */
         border-radius: 45px; /* Bløde kanter */
 
