@@ -1,0 +1,168 @@
+/* Hjemmesidens baggrundsfarve */
+body {background-color: lightgoldenrodyellow;} /* Sidens lysegule baggrundsfarve. Formel fra W3 Schools baggrundsfarve */
+
+
+/* Styling af brugernavns knap */
+.brugernavn{
+    background-color: orange; /* orange baggrundsfarve */
+    color: white;
+    width: 250px;
+    height: 80px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 23px;
+    margin: 4px 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    font-family:"Big Caslon";
+    background-color: orange; /* orange baggrundsfarve */
+    color: black;
+    border-radius: 50px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+
+/* Styling af adgangskode knap */
+.adgangskode{
+    background-color: orange; /* orange baggrundsfarve */
+    color: white;
+    width: 250px;
+    height: 80px;
+
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 23px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    font-family:"Big Caslon";
+    background-color: orange; /* orange baggrundsfarve */
+    color: black;
+    border-radius: 50px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+
+}
+
+
+/* Styling af login knap */
+.Login{
+    background-color: orange; /* orange baggrundsfarve */
+    border: none;
+    color: white;
+    padding: 6px 50px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 23px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    font-family:"Big Caslon";
+    background-color: orange; /* orange baggrundsfarve */
+    color: black;
+    border-radius: 50px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+
+}
+
+
+
+/* Styler det til mobil størrelse */
+@media only screen and (max-width: 500px){
+
+    /* Styling af brugernavns knap */
+    .brugernavn{
+        width: 180px; /* Bredde på knappen */
+        height: 58px; /* Højden på knappen */
+
+        text-align: center; /* Teksten placeret i midten af knappen */
+
+        font-size: 19px; /* Tekstens størrelse */
+        margin: 40px 40px; /* Luft til næste knap. Hvor lang afstand der er. */
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        font-family:"Big Caslon";
+        background-color: orange; /* orange baggrundsfarve */
+        color: black; /* Tekst/skrift farve */
+        border-radius: 45px; /* Bløde kanter */
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50%;     /* Rykkes ned fra toppen så placeret mere midt på siden */
+    }
+
+
+    /* Styling af adgangskode knap */
+    .adgangskode{
+        width: 180px; /* Bredde på knappen */
+        height: 58px; /* Højden på knappen */
+
+        text-align: center; /* Teksten placeret i midten af knappen */
+
+        font-size: 19px; /* Tekstens størrelse */
+        margin: 40px 40px; /* Luft til næste knap. Hvor lang afstand der er. */
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        font-family:"Big Caslon";
+        background-color: orange; /* orange baggrundsfarve */
+        color: black; /* Tekst/skrift farve */
+        border-radius: 45px; /* Bløde kanter */
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;     /* Rykkes ned fra tidligere knap så der er lidt luft mellem */
+    }
+
+    /* Styling af login knap */
+    .Login{
+        width: 140px; /* Bredde på knappen */
+        height: 40px; /* Højden på knappen */
+
+        text-align: center; /* Teksten placeret i midten af knappen */
+
+        font-size: 19px; /* Tekstens størrelse */
+        margin: 40px 40px; /* Luft til næste knap. Hvor lang afstand der er. */
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        font-family:"Big Caslon";
+        background-color: orange; /* orange baggrundsfarve */
+        color: black; /* Tekst/skrift farve */
+        border-radius: 45px; /* Bløde kanter */
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;     /* Rykkes ned fra tidligere knap så der er lidt luft mellem */
+    }
+
+}
