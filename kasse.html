@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--dette element definerer tegnsættelse, som der anvendes til at fortolke tegnene på websiden.-->
+    <meta charset="UTF-8">
+    <!--dette element styrer visningen af websiden på forskellige enheder, så både telefoner, ipads og computere.-->
+    <meta name="viewport" >
+    <title>logistik</title>
+    <!--her linkes der til google fonten som bliver brugt på hjemmesiden-->
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Merriweather+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--her linkes der til css-->
+    <link rel="stylesheet" href="styles.css">
+    <!--her linker jeg til javascript-->
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!--her er logoet som er lavet til et link som linker hjem til forsiden og der er lavet et id så den kan styles-->
+<!-- der bruges a element som bruges som hyper-link som gør at man kan linke til en webside eller et andet sted i ens hjemmeside
+i dette tilfelde bruges det som link til homepage-->
+<a id="ZSL" href="index.html">ZSL</a>
+
+<!-- her laves der topnavbar. den får en class så vi kan style den. dette kan ses i stylingen hvor der fx står .topnavn a{-->
+<!-- her er der lavet et div tag for at gruppere navbaren så der er mulighed for at style dem sammen (topnav a)-->
+<div class="topnav">
+    <!--her linket der til en anden side hvorefter der står en navn udfra så man kan genkende dem -->
+    <a href="#home">Home</a>
+    <a href="fordele.html">Fordele</a>
+    <a href="#contact">Vores forum</a>
+    <a href="index.html">Salg og logistik</a>
+</div>
+
+
+
+
+<!-- den får en class så den kan styles
+det er knapper da man skal kunne trykke på den og vælge en pris
+set-item gør at den valgte item udføres når den klikkes på-->
+<div class="drinks">
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('øl')">Øl</button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('øl_0')">Øl 0%</button>
+    <button onclick="set_item('cider')">Cider</button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('shot')">Shot</button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('faxe_free')">Faxe Free</button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('dink')">Drink</button>
+    <button onclick="set_item('cola')">Cola</button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('redbull')">Redbull</button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('faxe_kondi')">Faxe Kondi</button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('pepsi_max')">Pepsi Max</button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('')"></button>
+    <button onclick="set_item('')"></button>
+</div>
+
+<!-- her gives der en class så den kan styles
+den gives en set_quantity så lommeregneren reagere når tallet trykkes på
+så hvis man klikker på 1 sættes mængden til 1-->
+<div class="calculator">
+    <button onclick="set_quantity(0)">0</button>
+    <button onclick="set_quantity(1)">1</button>
+    <button onclick="set_quantity(2)">2</button>
+    <button onclick="set_quantity(3)">3</button>
+    <button onclick="set_quantity(4)">4</button>
+    <button onclick="set_quantity(5)">5</button>
+    <button onclick="set_quantity(6)">6</button>
+    <button onclick="set_quantity(7)">7</button>
+    <button onclick="set_quantity(8)">8</button>
+    <button onclick="set_quantity(9)">9</button>
+    <button onclick="calculate_total()">TOTAL</button>
+    <div id="total"></div>
+</div>
+
+
+
+
+</body>

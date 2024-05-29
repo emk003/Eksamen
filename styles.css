@@ -1,0 +1,262 @@
+body{
+    background-color: #FFFFF3;
+}
+
+
+/* Her vælger først frave, derefter størrelse, tættere på toppen, længere mod vendtre, fonten fra google,ingen streger rundt om eller under teksten */
+#ZSL{
+    color: #FFA644;
+    background-color: #FFFFF3;
+    font-size: 73px;
+    margin-left: 3px;
+    font-family: "Merriweather Sans", sans-serif;
+    text-decoration: none; /*gør at der ikke er streger rund om teksten*/
+}
+
+
+.topnav{
+    float: right; /*gør at den rykker sig mod højre*/
+    margin-top: 30px;
+}
+
+
+.topnav a{
+    color: #FFA644;
+    text-decoration: none; /*fjerne stregen under teksten*/
+    font-size: 25px;
+    padding: 25px; /*gør at der kommer mellemrum mellem teksten*/
+    display: inline; /*gør at teksten er ved siden af hinanden istedet for fx en boks/over hinanden */
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+
+#salg{
+    color: #ffe651;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 50px; /*størrelsen på teksten*/
+    padding-left: 60px;
+}
+
+
+#kasse {
+    background-color: #FFA644;
+    color: white; /*gør teksten hvis*/
+    padding: 18px 99px; /*gør kassen højere og breddere */
+    font-size: 35px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    text-decoration: none; /*fjerner streger rundt om teksten*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 30%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 40%; /* Centrer knappen  */
+    }
+
+#Kvittering {
+    background-color: #FFA644;
+    color: white; /*gør teksten hvis*/
+    padding: 18px 70px; /*gør kassen højere og breddere */
+    font-size: 35px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    text-decoration: none; /*fjerner streger rundt om teksten*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 50%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 40%; /* Centrer knappen  */
+}
+
+
+#Status {
+    background-color: #FFA644;
+    color: white; /*gør teksten hvis*/
+    padding: 18px 99px; /*gør kassen højere og breddere */
+    font-size: 35px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    text-decoration: none; /*fjerner streger rundt om teksten*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 70%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 40%; /* Centrer knappen  */
+}
+
+
+
+
+/*      HER     STARTER    STYLING    FOR    FILEN   KASSE       */
+
+body{
+    background-color: #FFFFF3;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+.drinks{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+    gap: 0.5rem; /* Afstand mellem knapperne */
+    margin-left: 70px;
+    margin-top: 4vw;
+}
+.drinks button{
+    width: 10rem;
+    height: 7rem;
+    background-color: #FEF2DB;
+
+}
+.calculator{
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr;
+    margin-left: 90px;
+    margin-top: 6vw;
+}
+.calculator button{
+    width: 7rem;
+    height: 7rem;
+    background-color: #ffe651;
+}
+#total{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+/*      HER     STARTER    STYLING    FOR    FILEN   FORDELE      */
+
+#fordele{
+    color: #ffe651;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 60px;/*størrelsen på teksten*/
+    padding-left: 60px; /*gør den rykker sig længere mod højre*/
+}
+
+#sammenhold{
+    font-size: 25px; /*giver teksten størrelse*/
+    padding-left: 60px; /*gør den rykker sig længere mod højre*/
+}
+
+
+#være{
+    color: #FFA644; /*gør teksten orange*/
+    font-size: 40px; /*størrelsen på teksten*/
+    padding-left: 60px; /*gør den rykker sig længere mod højre*/
+    padding-top: 40px; /*gør teksten rykker sig længere fra toppen*/
+}
+
+
+
+
+#et{
+    background-color: #fef2db;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 199px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 60%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
+#to{
+    background-color: #FEF2DB;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 187px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 68%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
+#tre{
+    background-color: #FEF2DB;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 176px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 76%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
+#fire{
+    background-color: #FEF2DB;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 238px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 84%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
+#fem{
+    background-color: #FEF2DB;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 215px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 92%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
+#seks{
+    background-color: #FEF2DB;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 204px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 100%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
+#syv{
+    background-color: #FEF2DB;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 175px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 108%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
+#otte{
+    background-color: #FEF2DB;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 195px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 116%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
+#ni{
+    background-color: #FEF2DB;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 157px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 124%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
+#ti{
+    background-color: #FEF2DB;
+    color: black; /*gør teksten hvis*/
+    padding: 18px 234px; /*gør kassen højere og breddere */
+    font-size: 20px; /*størrelsen på teksten*/
+    border-radius: 12px; /*laver runde kanter om knappen*/
+    position: absolute; /* Gør at kanppen kan rykke sig væk fra den plads som den stod på */
+    top: 132%; /* gør at den rykker jeg 30 % væk fra toppen*/
+    left: 30%; /* Centrer knappen  */
+}
+
