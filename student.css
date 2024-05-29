@@ -27,6 +27,7 @@ Body{
     color: #FFA644;
     text-decoration: none; /*fjerne stregen under teksten*/
     font-size: 25px;
+    font-weight: bold;
     padding: 25px; /*gør at der kommer mellemrum mellem teksten*/
     display: inline; /*gør at teksten er ved siden af hinanden istedet for fx en boks/over hinanden */
     font-family: "Merriweather Sans", sans-serif;
