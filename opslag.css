@@ -1,0 +1,45 @@
+/* Nede ser vi baggrundsfarven */
+body{
+    background-color: #FFFFF3;
+}
+
+/* Nede ser vi farvevalg til overskriften Lav opslag */
+h2{
+    color: #FFE651;
+}
+
+/* Nede ser vi styling af Læg op knappen */
+#post{
+    float: right;
+    background-color: #FEF2DB;
+    color: #FFA644;
+    padding: 5px 18px;
+    border-color: rgba(255, 166, 68, 0.51);
+    border-radius: 12px;
+}
+/* Nede ser vi border farven på tekstboksen */
+#freeform{
+    border-color: #f1f1c3;
+
+}
+/* Nede ser vi farvevalget på teksten "Skriv tekst her"*/
+label{
+    color: #737377;
+}
+
+#vælg{
+    width: 35px;
+    margin-right: 14px;
+}
+
+#prik{
+    width: 30px;
+    margin-left: 14px;
+}
+
+#tagfoto{
+    width: 35px;
+}
+
+
+@media only screen and (min-width: 500px)

@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+Body{
+    background-color: #FFFFF3;
+}
+
+/*Nedenunder ser vi farve valg til teksten "Vores Forum"*/
+h2{
+    color: #FFE651;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+/* Nedenunder ser vi valg af baggrundsfarve til selve hjemmeside indholdet*/
+main {
+    background-color: #FFFFF3;
+    text-align: center;
+}
+/* Nedenunder ser vi Vores Forum teksten*/
+#back{
+    font-size: 22px;
+    margin-left: 10%;
+    margin-bottom: 7%;
+}
+
+#back h2{margin-left: 20px;
+}
+
+/* Nedenunder ser vi de 3 billeder på vores forum. Vi ser billedernes størrelse og placering */
+#foto {
+    width: 40%;
+    text-align: center; 
+     margin-right: 14%;
+    margin-top: 35px;
+margin-bottom: 8%}
+
+
+#foto2{
+    width: 40%;
+    text-align: center;
+    margin-right: 35%;
+    margin-bottom: 8%;
+}
+#foto3{
+    width: 40%;
+    text-align: center;
+    margin-right: 35%;
+    margin-bottom: 8%;
+}
+
+  /* Nede ser vi stjerne ikonet*/
+ #stjerne{
+     width: 20px;
+ }
+ /* Nede ser vi kommentar ikonet */
+ #comment{
+     width: 22px;
+ }
+
+ #prikker{
+      width: 20px;
+ }
+
+ /* Nede ser vi css til vores første sektion, heri indholder der billed, ikoner og billed tekst */
+ #bar{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 60px;
+ }
+  /* Nede ser vi placering af første billede */
+ .billede{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 340px;
+ }
+
+  /* Nede ser vi css til vores anden sektion, heri indholder der billed, ikoner og billed tekst */
+ #bar2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin-bottom: 60px;
+
+}
+ /* Nede ser vi placering af andet billede */
+.billede2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    margin-right: 20%;
+}
+
+
+  /* Nede ser vi css til vores tredje sektion, heri indholder der billed, ikoner og billed tekst */
+ #bar3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin-bottom: 60px;
+
+}
+
+ /* Nede ser vi placering af tredje billede */
+.billede3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    margin-right: 20%;
+}
+ /* Nede ser vi Lav opslag knappen */
+.lavopslag{
+       float: right;                           
+     background-color: #FEF2DB;
+    color: #FFA644;
+       padding: 5px 10px;
+       border-color: rgba(255, 166, 68, 0.51);
+      border-radius: 10px;
+    margin-right: 30px
+}
+
+@media only screen and (min-width: 500px)
