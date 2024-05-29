@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zealand Student Life</title>
+  <link rel="stylesheet" href="home.css">
+  <meta name="viewport" content="Width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Metrophobic">
+</head>
+
+<body>
+
+<!-- Har lavet en section for at gruppere mit indhold. Indholdet her er det grafiske billed på den øverste sektion på siden-->
+<section id="øverst"> <!-- Har givet boksen et ID, da det er et specifikt element-->
+    <img class="billed" src="grafisk.png" alt="emilie"> <!--har givet billedet en class, så jeg kan style på det-->
+
+    <!--Har lavet en articel til overskrifterne, da hver overskrift er seperart fra hinanden-->
+    <article>
+        <h1>Zealand</h1>
+        <h2>Student Life</h2>
+        <h3>Hvor fællesskabet møder struktur!</h3>
+    </article>
+</section>
+
+<!-- Har lavet en section for at gruppere mit indhold. Indholdet her er en overskrift, tekst og en knap-->
+<section id="hvemervi">
+    <!--overskriften-->
+<h5>Om os</h5>
+    <!--brødtekst-->
+    <!-- Bruger "span" elementet for ikke at påvirke layoutet af teksten og hvert element har et id som bruges i JS-->
+<p>Vi er et fællesskab af dedikerede frivillige, der brænder for at skabe den hyggelige atmosfære og gode oplevelser i fredagsbarene på Zealand. Vores forening er samlingspunktet for alle, der ønsker at bidrage til fællesskabet og være en del af noget særligt.<span id="dots">...</span><span id="more"> Som frivillige arbejder vi hårdt for at sikre, at vores fredagsbar er et sted, hvor alle føler sig velkomne og kan nyde gode øjeblikke sammen. Vores frivillige bidrager med deres tid, energi og kreativitet for at gøre hvert arrangement til en succes.</span></p>
+    <!-- Knap som kan vise mere eller mindre tekst, har givet den ID'et "myBtn"-->
+    <!-- Gør også brug af attributet "onclick", som betyder den går igang når nogen klikke på knappen, ID'et henviser til funktionens navn som er "myfunction"-->
+<button onclick="myFunction()" id="myBtn">Vis mere</button> <!--taget fra https://www.w3schools.com/howto/howto_js_read_more.asp-->
+</section>
+
+<!-- Link til java script. Ligger hernede så det hurtigere kan loade-->
+<script src="knap.js"></script>
+
+<div id="calendar">
+    <div id="calendar-header"> <!--added a div for the calendar header. This is where we’ll put the controls (Buttons) for changing the month and the display for the current month and year-->
+        <span id="month-prev" class="change-month"><</span> <!--added two span elements to act as buttons for navigating to the previous and next month.-->
+        <h6 id="month">Maj 2024</h6> <!--added a h1 tag to display the current month and year-->
+        <span id="month-next" class="change-month">></span> <!--added two span elements to act as buttons for navigating to the previous and next month.-->
+    </div>
+
+    <!--added another div for the calendar body. This is where we’ll display the days of the week and the dates in the month.-->
+    <div id="calendar-body">
+        <!--lavet en div for hver dag af ugen-->
+        <div>Søn</div>
+        <div>Man</div>
+        <div>Tir</div>
+        <div>Ons</div>
+        <div>Tor</div>
+        <div>Fre</div>
+        <div>Lør</div>
+        <!-- lavet en div for hver af månedernes dage-->
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div>21</div>
+        <div>22</div>
+        <div>23</div>
+        <div>24</div>
+        <div>25</div>
+        <div>26</div>
+        <div>27</div>
+        <div>28</div>
+        <div>29</div>
+        <div>30</div>
+        <div>31</div>
+    </div>
+</div>
+
+<!-- lavet en knap til under kalenderen -->
+<button id="rediger">Rediger</button>
+
+
+</body>
+</html>
