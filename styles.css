@@ -84,43 +84,6 @@ body{
     background-color: #FFFFF3;
 }
 
-body{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-}
-.drinks{
-    display: grid;
-    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
-    gap: 0.5rem; /* Afstand mellem knapperne */
-    margin-left: 70px;
-    margin-top: 4vw;
-}
-.drinks button{
-    width: 10rem;
-    height: 7rem;
-    background-color: #FFA644;
-    font-size: 20px;
-}
-.calculator{
-    display: grid;
-    grid-template-columns: 0.25fr 0.25fr 0.25fr;
-    margin-left: 90px;
-    margin-top: 6vw;
-    
-}
-.calculator button{
-    width: 7rem;
-    height: 7rem;
-    background-color: #ffe651;
-    font-size: 20px;
-}
-#total{
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    font-size: 2rem;
-}
 
 
 
