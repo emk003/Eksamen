@@ -52,17 +52,19 @@ i dette tilfelde bruges det som link til homepage-->
 <button onclick="myFunction()" id="myBtn">Vis mere</button> <!--taget fra https://www.w3schools.com/howto/howto_js_read_more.asp-->
 </section>
 
+<!--  kalenderen under er taget fra https://forfrontend.com/how-to-make-responsive-calendar-in-html-and-css/-->
+
 <!-- Link til java script. Ligger hernede så det hurtigere kan loade-->
 <script src="knap.js"></script>
 
 <div id="calendar">
-    <div id="calendar-header"> <!--added a div for the calendar header. This is where we’ll put the controls (Buttons) for changing the month and the display for the current month and year-->
-        <span id="month-prev" class="change-month"><</span> <!--added two span elements to act as buttons for navigating to the previous and next month.-->
-        <h6 id="month">Maj 2024</h6> <!--added a h1 tag to display the current month and year-->
-        <span id="month-next" class="change-month">></span> <!--added two span elements to act as buttons for navigating to the previous and next month.-->
+    <div id="calendar-header"> <!--tilføjet en div til kalenders overskifter. her ligger "knapperne" til at skifte mellem måned, månedens navn og året-->
+        <span id="month-prev" class="change-month"><</span> <!-- tilføjet span elemnentet til "knapperne" til at skifte mellem månederne, uden at ødelægge layoutet-->
+        <h6 id="month">Maj 2024</h6> <!--tilføjet en h6 for at vise måned og år-->
+        <span id="month-next" class="change-month">></span> <!-- tilføjet span elemnentet til "knapperne" til at skifte mellem månederne, uden at ødelægge layoutet-->
     </div>
 
-    <!--added another div for the calendar body. This is where we’ll display the days of the week and the dates in the month.-->
+    <!--tilføjet en til div til calender body. Her bliver dage og datoer for måneden vist-->
     <div id="calendar-body">
         <!--lavet en div for hver dag af ugen-->
         <div>Søn</div>

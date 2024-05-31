@@ -136,141 +136,138 @@ button:hover{
 
 /*I set it to take up the full width of its container, but not to exceed 600px. This makes it responsive to different screen sizes*/
 /* har sat den til at fylde hele dens container*/
-/* */
+
+
+/* styling af kalenderens boks*/
 #calendar {
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
+    width: 100%; /* for at den fylder hele boksen ud*/
+    max-width: 300px; /* for at kunne styrer størrelsen på selve boksen*/
+    margin: 0 auto; /* for at centrere den */
 }
+/* styling af kalenderens øverste del*/
 #calendar-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #FFFFF3;
-    color: #FFA644;
-    margin-top: 10%;
+    display: flex; /* for at kunne redigere placeringen */
+    justify-content: space-between; /* så der kommer mellemrum mellem elementerne */
+    align-items: center; /* for at centrere*/
+    padding: 10px; /* for at skabe luft rundt om */
+    background-color: #FFFFF3; /* baggrundsfarven */
+    color: #FFA644; /* farven på teksten*/
+    margin-top: 10%; /* for at skabe luft til sektionen før*/
 }
 
 #calendar-body {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 1px;
+    display: grid; /* for at skabe firkanter*/
+    grid-template-columns: repeat(7, 1fr);/* for at lave 7 firkanter, en for hver dag af ugen. brugte en "Fr" for at firkanterne ikke var vandret */
+    gap: 1px; /* mellemrummet mellem firkanterne */
     background-color: #FFA644; /*farven på linjerne mellem dagene og den ekstra plads under dagene*/
 }
 #calendar-body div {
     padding: 10px; /* for at den holder størrelse og ikke flyder, så man kan skubbe til siden?*/
-    background-color: #fff;
-    text-align: center;
+    background-color: #fff; /* baggrundsfarve*/
+    text-align: center; /* for at centrere teksten*/
 }
 .change-month {
-    cursor: pointer;
+    cursor: pointer; /* for at musen bliver til en finger over "knapperne" til at skifte måned */
 }
 
 h6{
-    font-family: Merriweather,sans-serif;
-    font-weight: normal;
-    font-size: 200%;
-    margin-top: 10%;
+    font-family: Merriweather,sans-serif; /* fonttypen */
+    font-weight: normal; /* teksten tykkelse*/
+    font-size: 200%; /* tekstens størrelse */
+    margin-top: 10%; /* skabe mellemrum på toppen*/
 }
 
+/* Knappen nederst på siden*/
 #rediger{
-    float: right;
-    margin-right: 11%;
-    margin-top: 5%;
+    float: right; /* så knappen kommer i højre side */
+    margin-right: 11%; /* styrrer placeringen af knappen mere præcist */
+    margin-top: 5%; /* mellemtummet på toppen*/
 }
 
 
 /*Styling af computer størrelse, hvor jeg har gjort det meste større*/
 @media only screen and (min-width: 500px) {
 
+    /* styling af brødteksten under om os*/
 p{
-    font-size: 150%;
-    font-family: "Anek Kanada", sans-serif;
+    font-size: 150%; /* gjordt brødtekstenstørrer */
+    font-family: "Metrophobic", sans-serif; /* font typen */
 }
 
+/*  styling af det grafiske billed*/
 .billed{
-    height: 596px;
-    width: 680px;
-    float: right;
+    height: 596px; /* gjordt billedet højere*/
+    width: 680px; /* gjordt billedet breddere */
+    float: right; /* placering af billedet til højre */
 }
 
+/* styling af overskrifterne*/
 article{
-    float: left;
+    float: left; /* placering til venstre*/
 }
 
-article p{
-    width: 50vh;
-    margin-top: 5%;
-}
-
-
+/* styling af sektionen med billedet og overskrifterne*/
 #øverst{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
+    display: flex; /* for at kunne redigere placeringen */
+    flex-direction: row; /*  for at få dem ved siden af hinanden*/
+    justify-content: space-between; /*  for at få luft mellem elementerne*/
+    margin-left: 10%; /* redigere luften til venstre*/
+    margin-right: 10%;/* redigere luften til højre*/
+    margin-top: 5%; /* redigere luften til toppen*/
 }
 
+/* styling af den øverste overskrift*/
 h1{
-    font-size: 750%;
-    margin-top: 68%;
-    font-family:"Merriweather", sans-serif; /*så den får den rigtige skrifttype*/
-    font-weight: normal;
-    color: #FFE651;
-    text-shadow: 1px 1px #000000; /*så der kommer skygge på, taget fra https://www.w3schools.com/cssref/css3_pr_text-shadow.php*/
-    margin-left: -58%;
+    font-size: 750%; /* gjordt teksten størrer */
+    margin-top: 68%; /* gjordt mellemtummet til toppen størrer*/
+    margin-left: -58%; /* redigeret hvor meget til venstre den skal gå*/
 }
 
+/* styling af anden overskrift*/
 h2{
-    font-size: 850%;
-    font-family:"Merriweather", sans-serif; /*så den får den rigtige skrifttype*/
-    font-weight: normal;
-    color: #FFA644;
-    text-shadow: 1px 1px #000000; /*så der kommer skygge på, taget fra https://www.w3schools.com/cssref/css3_pr_text-shadow.php*/
-    margin-left: -150%;
-    margin-top: -17%;
+    font-size: 850%; /* gjordt teksten størrer */
+    margin-left: -150%; /* redigeret hvor meget til venstre den skal gå*/
+    margin-top: -17%; /* redigeret hvor meget til toppen den skal gå*/
 }
 
+/* styling af tredje overskrift*/
 h3{
-    font-size: 150%;
-    font-family:"Metrophobic", sans-serif; /*så den får den rigtige skrifttype*/
-    margin-left: -40%;
-    margin-top: -5%;
+    font-size: 150%; /* gjordt teksten størrer */
+    margin-left: -40%; /* redigeret hvor meget til venstre den skal gå*/
+    margin-top: -5%;/* redigeret hvor meget til toppen den skal gå*/
 }
 
-
+/* styling af overskriften "om os"*/
 h5{
-    font-size: 400%;
+    font-size: 400%; /* gjordt teksten størrer */
 }
 
+/* styling af boksen "om os"*/
 #hvemervi{
-    margin-top: 3%;
+    margin-top: 3%; /* redigeret hvor meget til toppen den skal gå*/
 }
 
+/* styling af overskriften i kalenderen*/
     h6{
-        font-family: Merriweather,sans-serif;
-        font-weight: normal;
-        font-size: 400%;
-        margin-top: 10%;
+        font-size: 400%; /* gjordt teksten størrer */
+        margin-top: 10%; /* redigeret hvor meget til toppen den skal gå*/
     }
 
+    /* styling kalender boksen */
     #calendar {
-        max-width: 600px;
-        margin: 0 auto;
+        max-width: 600px; /* gjordt boksen størrer*/
+        margin: 0 auto; /* centerere den*/
     }
 
-    /*ændrer størrelsen på de to pile til sidste og næste måned*/
+    /* styling af pilene i kalenderen*/
 .change-month{
-    font-size: 200%;
+    font-size: 200%;  /*gjordt pilene størrer*/
 }
 
+ /* styling knappen under kalenderen */
     #rediger{
-        float: right;
-        margin-right: 32%;
-        margin-top: 2%;
+        margin-right: 32%;  /* gjordt afstanden til højre størrer */
+        margin-top: 2%;  /* gjordt afstanden til kalenderen mindrer */
     }
 
 }
